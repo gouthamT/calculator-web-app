@@ -1,0 +1,16 @@
+.result-view {
+  color: white;
+  text-align: right;
+  background: black;
+  margin: 0;
+  width: 100%;
+  border: 0;
+  font-size: calc(var(--base-font-size) * 3);
+}
+
+/* media queries for non small devices */
+@media (min-width: 768px) {
+  .result-view {
+    padding: 1rem 3rem 1.5rem 0;
+  }
+}

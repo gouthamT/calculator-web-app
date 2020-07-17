@@ -1,0 +1,18 @@
+.square-root__base {
+  border-top: 1px solid var(--white);
+}
+
+.square-root__prefix {
+  vertical-align: super;
+  font-size: xx-small;
+}
+
+.power__suffix {
+  vertical-align: super;
+  font-size: xx-small;
+}
+
+.logarithm__suffix {
+  vertical-align: sub;
+  font-size: xx-small;
+}

@@ -1,0 +1,50 @@
+.button-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5rem;
+  background-color: black;
+  padding: .2rem;
+  overflow-x: auto;
+}
+
+.button {
+  text-align: center;
+  font-size: calc(var(--base-font-size) * 2);
+  padding: .5rem;
+  width: 5rem;
+  height: 4.7rem;
+  border: black;
+  border-radius: 50%;
+}
+
+.expanded-button {
+  grid-column: 1 / 3;
+  border-radius: 40px;
+  width: 85%;
+}
+
+.scientific {
+  display: none;
+}
+
+.small-font {
+  font-size: calc(var(--base-font-size) * 1.75);
+}
+
+/* media queries for non small devices */
+@media (min-width: 768px) {
+  .button-list {
+    grid-template-columns: repeat(10, 1fr);
+    padding: .5rem;
+  }
+
+  .expanded-button {
+    grid-column: 7 / 9;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .scientific {
+    display: block;
+  }
+}
