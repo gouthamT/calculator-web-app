@@ -1,0 +1,34 @@
+.histories {
+  font-weight: bold;
+}
+
+.history--list,
+.history--tabs {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.history--tabs li {
+  padding: 1rem;
+}
+
+.light-grey-font {
+  color: #a1a1a1;
+}
+
+.history--list {
+  flex-direction: column;
+  padding-right: 2rem;
+  height: 40vh;
+  overflow: auto;
+}
+
+/* media queries for non small devices */
+@media (min-width: 768px) {
+  .history--list {
+    align-items: flex-end;
+    padding-right: 2rem;
+  }
+}
