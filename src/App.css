@@ -4,5 +4,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #f2f2f2;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-default);
+}
+
+/* media queries for non small devices */
+@media (min-width: 768px) {
+  .app {
+    flex-direction: row;
+  }
 }

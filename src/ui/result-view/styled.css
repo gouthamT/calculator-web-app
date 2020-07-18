@@ -5,6 +5,7 @@
   margin: 0;
   width: 100%;
   border: 0;
+  border-radius: 0;
   font-size: calc(var(--base-font-size) * 3);
 }
 
