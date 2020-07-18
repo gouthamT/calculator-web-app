@@ -8,7 +8,6 @@ const mapButtonEventListeners = btn =>  {
 };
 
 export const initUserInteractionObservable = () => {
-  console.log('observables initialized');
   const actionButtons = document.getElementsByClassName("actionable-button");
 
   stream$ = from(actionButtons)

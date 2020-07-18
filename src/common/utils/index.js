@@ -5,7 +5,6 @@ const isNumber = (item) => {
   return /[0-9]+/.test(item);
 };
 
-
 export const calculate = (obj, buttonName) => {
   try {
 

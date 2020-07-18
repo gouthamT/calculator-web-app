@@ -10,6 +10,7 @@ const defaultState = {
 
 export const useStore = () => {
   const stream$ = useRef();
+  const streamSubscriptionRef = useRef();
   const stateRef = useRef(defaultState);
   const [{ onHandleInterimHistory }] = useHistoryApi();
   const [displayValue, setDisplayValue]= useState(0);
@@ -24,9 +25,9 @@ export const useStore = () => {
 
   useEffect(() => {
         stream$.current = initUserInteractionObservable();
-        stream$.current.subscribe(onHandleEventsCallback);
+        streamSubscriptionRef.current = stream$.current.subscribe(onHandleEventsCallback);
         return () => {
-          stream$.current.unsubscribe();
+          streamSubscriptionRef.current.unsubscribe();
         }
   }, [onHandleEventsCallback]);
 
@@ -34,4 +35,4 @@ export const useStore = () => {
 };
 
 
-export { useHistoryApi } from './observables';
+export { useHistoryApi, historySubject$ } from './observables';

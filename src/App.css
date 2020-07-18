@@ -10,6 +10,10 @@
   background: var(--bg-default);
 }
 
+.calculator {
+  flex: 5;
+}
+
 /* media queries for non small devices */
 @media (min-width: 768px) {
   .app {

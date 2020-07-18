@@ -1,16 +1,3 @@
-import React from 'react';
-import { ResultView } from './result-view';
-import { ButtonList } from './button-list';
-import { HistoryView } from './history-view';
-
-export const CalculatorView = ({ value }) => {
-  return (
-    <>
-      <div className="calculator">
-        <ResultView value={value} />
-        <ButtonList />
-      </div>
-      <HistoryView />
-    </>
-  );
-}
+export { ResultView } from './result-view';
+export { ButtonList } from './button-list';
+export { HistoryView } from './history-view';

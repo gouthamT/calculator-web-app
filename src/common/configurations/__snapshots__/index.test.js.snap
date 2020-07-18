@@ -1,0 +1,476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonConfigurations ButtonConfigurations should match snapshot 1`] = `
+Array [
+  Array [
+    "(",
+    Object {
+      "className": "",
+      "key": "(",
+      "label": "(",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    ")",
+    Object {
+      "className": "",
+      "key": ")",
+      "label": ")",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "mc",
+    Object {
+      "className": "",
+      "key": "mc",
+      "label": "mc",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "m+",
+    Object {
+      "className": "",
+      "key": "m+",
+      "label": "m+",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "m-",
+    Object {
+      "className": "",
+      "key": "m-",
+      "label": "m-",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "mr",
+    Object {
+      "className": "",
+      "key": "mr",
+      "label": "mr",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "AC",
+    Object {
+      "className": "",
+      "key": "AC",
+      "label": "AC",
+    },
+  ],
+  Array [
+    "+/-",
+    Object {
+      "className": "",
+      "key": "+/-",
+      "label": "+/-",
+    },
+  ],
+  Array [
+    "%",
+    Object {
+      "className": "",
+      "key": "%",
+      "label": "%",
+    },
+  ],
+  Array [
+    "÷",
+    Object {
+      "className": "",
+      "key": "÷",
+      "label": "÷",
+      "operatorType": "arithmetic",
+    },
+  ],
+  Array [
+    "second",
+    Object {
+      "className": "",
+      "key": "second",
+      "label": <PowerExpression
+        base="2"
+        exponent="nd"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "xPow2",
+    Object {
+      "className": "",
+      "key": "xPow2",
+      "label": <PowerExpression
+        base="x"
+        exponent="2"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "xPow3",
+    Object {
+      "className": "",
+      "key": "xPow3",
+      "label": <PowerExpression
+        base="x"
+        exponent="3"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "xPowY",
+    Object {
+      "className": "",
+      "key": "xPowY",
+      "label": <PowerExpression
+        base="x"
+        exponent="y"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "ePowX",
+    Object {
+      "className": "",
+      "key": "ePowX",
+      "label": <PowerExpression
+        base="e"
+        exponent="x"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "10PowX",
+    Object {
+      "className": "",
+      "key": "10PowX",
+      "label": <PowerExpression
+        base="10"
+        exponent="x"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "7",
+    Object {
+      "className": "",
+      "key": "7",
+      "label": "7",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "8",
+    Object {
+      "className": "",
+      "key": "8",
+      "label": "8",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "9",
+    Object {
+      "className": "",
+      "key": "9",
+      "label": "9",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "x",
+    Object {
+      "className": "",
+      "key": "x",
+      "label": "x",
+      "operatorType": "arithmetic",
+    },
+  ],
+  Array [
+    "1/x",
+    Object {
+      "className": "",
+      "key": "1/x",
+      "label": "1/x",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "2SqrX",
+    Object {
+      "className": "",
+      "key": "2SqrX",
+      "label": <SquareRootExpression
+        index="2"
+        radicand="X"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "3SqrX",
+    Object {
+      "className": "",
+      "key": "3SqrX",
+      "label": <SquareRootExpression
+        index="3"
+        radicand="X"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "XSqrY",
+    Object {
+      "className": "",
+      "key": "XSqrY",
+      "label": <SquareRootExpression
+        index="X"
+        radicand="Y"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "In",
+    Object {
+      "className": "",
+      "key": "In",
+      "label": "In",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "log10",
+    Object {
+      "className": "",
+      "key": "log10",
+      "label": <LogarithmExpression
+        base="log"
+        exponent="10"
+      />,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "4",
+    Object {
+      "className": "",
+      "key": "4",
+      "label": "4",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "5",
+    Object {
+      "className": "",
+      "key": "5",
+      "label": "5",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "6",
+    Object {
+      "className": "",
+      "key": "6",
+      "label": "6",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "-",
+    Object {
+      "className": "",
+      "key": "-",
+      "label": "-",
+      "operatorType": "arithmetic",
+    },
+  ],
+  Array [
+    "x!",
+    Object {
+      "className": "",
+      "key": "x!",
+      "label": "x!",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "sin",
+    Object {
+      "className": "",
+      "key": "sin",
+      "label": "sin",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "cos",
+    Object {
+      "className": "",
+      "key": "cos",
+      "label": "cos",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "tan",
+    Object {
+      "className": "",
+      "key": "tan",
+      "label": "tan",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "e",
+    Object {
+      "className": "",
+      "key": "e",
+      "label": "e",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "EE",
+    Object {
+      "className": "",
+      "key": "EE",
+      "label": "EE",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "1",
+    Object {
+      "className": "",
+      "key": "1",
+      "label": "1",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "2",
+    Object {
+      "className": "",
+      "key": "2",
+      "label": "2",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "3",
+    Object {
+      "className": "",
+      "key": "3",
+      "label": "3",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "+",
+    Object {
+      "className": "",
+      "key": "+",
+      "label": "+",
+      "operatorType": "arithmetic",
+    },
+  ],
+  Array [
+    "Rad",
+    Object {
+      "className": "",
+      "key": "Rad",
+      "label": "Rad",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "sinh",
+    Object {
+      "className": "",
+      "key": "sinh",
+      "label": "sinh",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "cosh",
+    Object {
+      "className": "",
+      "key": "cosh",
+      "label": "cosh",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "tanh",
+    Object {
+      "className": "",
+      "key": "tanh",
+      "label": "tanh",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "nArray",
+    Object {
+      "className": "",
+      "key": "nArray",
+      "label": <span>
+        ∏
+      </span>,
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "Rand",
+    Object {
+      "className": "small-font",
+      "key": "Rand",
+      "label": "Rand",
+      "operatorType": "scientific",
+    },
+  ],
+  Array [
+    "0",
+    Object {
+      "className": "expanded-button",
+      "key": "0",
+      "label": "0",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    ".",
+    Object {
+      "className": "",
+      "key": ".",
+      "label": ".",
+      "operatorType": "number",
+    },
+  ],
+  Array [
+    "=",
+    Object {
+      "className": "",
+      "key": "=",
+      "label": "=",
+      "operatorType": "arithmetic",
+    },
+  ],
+]
+`;

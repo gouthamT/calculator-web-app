@@ -14,5 +14,5 @@ export const formatMessage = (arr = []) => {
         }
 
         return message;
-    }, { drillDown: null , total: "" });
+    }, { date: new Date().getTime(),  drillDown: null , total: "" });
 }

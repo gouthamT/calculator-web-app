@@ -1,0 +1,618 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match all configured buttons 1`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="("
+  data-testid="btn-("
+>
+  (
+</button>
+`;
+
+exports[`should match all configured buttons 2`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key=")"
+  data-testid="btn-)"
+>
+  )
+</button>
+`;
+
+exports[`should match all configured buttons 3`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="mc"
+  data-testid="btn-mc"
+>
+  mc
+</button>
+`;
+
+exports[`should match all configured buttons 4`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="m+"
+  data-testid="btn-m+"
+>
+  m+
+</button>
+`;
+
+exports[`should match all configured buttons 5`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="m-"
+  data-testid="btn-m-"
+>
+  m-
+</button>
+`;
+
+exports[`should match all configured buttons 6`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="mr"
+  data-testid="btn-mr"
+>
+  mr
+</button>
+`;
+
+exports[`should match all configured buttons 7`] = `
+<button
+  class="button actionable-button bg-grey "
+  data-operator-key="AC"
+  data-testid="btn-AC"
+>
+  AC
+</button>
+`;
+
+exports[`should match all configured buttons 8`] = `
+<button
+  class="button actionable-button bg-grey "
+  data-operator-key="+/-"
+  data-testid="btn-+/-"
+>
+  +/-
+</button>
+`;
+
+exports[`should match all configured buttons 9`] = `
+<button
+  class="button actionable-button bg-grey "
+  data-operator-key="%"
+  data-testid="btn-%"
+>
+  %
+</button>
+`;
+
+exports[`should match all configured buttons 10`] = `
+<button
+  class="button actionable-button pure-white bg-orange "
+  data-operator-key="÷"
+  data-testid="btn-÷"
+>
+  ÷
+</button>
+`;
+
+exports[`should match all configured buttons 11`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="second"
+  data-testid="btn-second"
+>
+  <div
+    class="power"
+  >
+    <span>
+      2
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      nd
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 12`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="xPow2"
+  data-testid="btn-xPow2"
+>
+  <div
+    class="power"
+  >
+    <span>
+      x
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      2
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 13`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="xPow3"
+  data-testid="btn-xPow3"
+>
+  <div
+    class="power"
+  >
+    <span>
+      x
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      3
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 14`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="xPowY"
+  data-testid="btn-xPowY"
+>
+  <div
+    class="power"
+  >
+    <span>
+      x
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      y
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 15`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="ePowX"
+  data-testid="btn-ePowX"
+>
+  <div
+    class="power"
+  >
+    <span>
+      e
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      x
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 16`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="10PowX"
+  data-testid="btn-10PowX"
+>
+  <div
+    class="power"
+  >
+    <span>
+      10
+    </span>
+    <sup
+      class="power__suffix"
+    >
+      x
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 17`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="7"
+  data-testid="btn-7"
+>
+  7
+</button>
+`;
+
+exports[`should match all configured buttons 18`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="8"
+  data-testid="btn-8"
+>
+  8
+</button>
+`;
+
+exports[`should match all configured buttons 19`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="9"
+  data-testid="btn-9"
+>
+  9
+</button>
+`;
+
+exports[`should match all configured buttons 20`] = `
+<button
+  class="button actionable-button pure-white bg-orange "
+  data-operator-key="x"
+  data-testid="btn-x"
+>
+  x
+</button>
+`;
+
+exports[`should match all configured buttons 21`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="1/x"
+  data-testid="btn-1/x"
+>
+  1/x
+</button>
+`;
+
+exports[`should match all configured buttons 22`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="2SqrX"
+  data-testid="btn-2SqrX"
+>
+  <div
+    class="square-root"
+  >
+    <sup
+      class="square-root__prefix"
+    >
+      2
+    </sup>
+    <span>
+      √
+    </span>
+    <span
+      class="square-root__base"
+    >
+      X
+    </span>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 23`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="3SqrX"
+  data-testid="btn-3SqrX"
+>
+  <div
+    class="square-root"
+  >
+    <sup
+      class="square-root__prefix"
+    >
+      3
+    </sup>
+    <span>
+      √
+    </span>
+    <span
+      class="square-root__base"
+    >
+      X
+    </span>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 24`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="XSqrY"
+  data-testid="btn-XSqrY"
+>
+  <div
+    class="square-root"
+  >
+    <sup
+      class="square-root__prefix"
+    >
+      X
+    </sup>
+    <span>
+      √
+    </span>
+    <span
+      class="square-root__base"
+    >
+      Y
+    </span>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 25`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="In"
+  data-testid="btn-In"
+>
+  In
+</button>
+`;
+
+exports[`should match all configured buttons 26`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="log10"
+  data-testid="btn-log10"
+>
+  <div
+    class="logarithm"
+  >
+    <span>
+      log
+    </span>
+    <sup
+      class="logarithm__suffix"
+    >
+      10
+    </sup>
+  </div>
+</button>
+`;
+
+exports[`should match all configured buttons 27`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="4"
+  data-testid="btn-4"
+>
+  4
+</button>
+`;
+
+exports[`should match all configured buttons 28`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="5"
+  data-testid="btn-5"
+>
+  5
+</button>
+`;
+
+exports[`should match all configured buttons 29`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="6"
+  data-testid="btn-6"
+>
+  6
+</button>
+`;
+
+exports[`should match all configured buttons 30`] = `
+<button
+  class="button actionable-button pure-white bg-orange "
+  data-operator-key="-"
+  data-testid="btn--"
+>
+  -
+</button>
+`;
+
+exports[`should match all configured buttons 31`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="x!"
+  data-testid="btn-x!"
+>
+  x!
+</button>
+`;
+
+exports[`should match all configured buttons 32`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="sin"
+  data-testid="btn-sin"
+>
+  sin
+</button>
+`;
+
+exports[`should match all configured buttons 33`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="cos"
+  data-testid="btn-cos"
+>
+  cos
+</button>
+`;
+
+exports[`should match all configured buttons 34`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="tan"
+  data-testid="btn-tan"
+>
+  tan
+</button>
+`;
+
+exports[`should match all configured buttons 35`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="e"
+  data-testid="btn-e"
+>
+  e
+</button>
+`;
+
+exports[`should match all configured buttons 36`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="EE"
+  data-testid="btn-EE"
+>
+  EE
+</button>
+`;
+
+exports[`should match all configured buttons 37`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="1"
+  data-testid="btn-1"
+>
+  1
+</button>
+`;
+
+exports[`should match all configured buttons 38`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="2"
+  data-testid="btn-2"
+>
+  2
+</button>
+`;
+
+exports[`should match all configured buttons 39`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="3"
+  data-testid="btn-3"
+>
+  3
+</button>
+`;
+
+exports[`should match all configured buttons 40`] = `
+<button
+  class="button actionable-button pure-white bg-orange "
+  data-operator-key="+"
+  data-testid="btn-+"
+>
+  +
+</button>
+`;
+
+exports[`should match all configured buttons 41`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="Rad"
+  data-testid="btn-Rad"
+>
+  Rad
+</button>
+`;
+
+exports[`should match all configured buttons 42`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="sinh"
+  data-testid="btn-sinh"
+>
+  sinh
+</button>
+`;
+
+exports[`should match all configured buttons 43`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="cosh"
+  data-testid="btn-cosh"
+>
+  cosh
+</button>
+`;
+
+exports[`should match all configured buttons 44`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="tanh"
+  data-testid="btn-tanh"
+>
+  tanh
+</button>
+`;
+
+exports[`should match all configured buttons 45`] = `
+<button
+  class="button scientific white bg-dark-grey "
+  data-operator-key="nArray"
+  data-testid="btn-nArray"
+>
+  <span>
+    ∏
+  </span>
+</button>
+`;
+
+exports[`should match all configured buttons 46`] = `
+<button
+  class="button scientific white bg-dark-grey small-font"
+  data-operator-key="Rand"
+  data-testid="btn-Rand"
+>
+  Rand
+</button>
+`;
+
+exports[`should match all configured buttons 47`] = `
+<button
+  class="button actionable-button white bg-light-grey expanded-button"
+  data-operator-key="0"
+  data-testid="btn-0"
+>
+  0
+</button>
+`;
+
+exports[`should match all configured buttons 48`] = `
+<button
+  class="button actionable-button white bg-light-grey "
+  data-operator-key="."
+  data-testid="btn-."
+>
+  .
+</button>
+`;
+
+exports[`should match all configured buttons 49`] = `
+<button
+  class="button actionable-button pure-white bg-orange "
+  data-operator-key="="
+  data-testid="btn-="
+>
+  =
+</button>
+`;

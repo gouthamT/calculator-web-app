@@ -1,14 +1,17 @@
 import  { useCallback } from 'react';
 import { BehaviorSubject } from 'rxjs';
+import { getPastTwoDaysHistory, updateLocalStorageHistory } from './local-storage-helper';
 import { formatMessage } from './utils';
 
-const historySubject$ = new BehaviorSubject([]);
+export const historySubject$ = new BehaviorSubject(getPastTwoDaysHistory());
 const interimHistorySubject$ = new BehaviorSubject([]);
 
 export const useHistoryApi = () => {
   const sendMessage = useCallback((message) => {
     const previousState = historySubject$.getValue();
-    historySubject$.next([formatMessage(message), ...previousState]);
+    const nextState = [formatMessage(message), ...previousState];
+    historySubject$.next(nextState);
+    updateLocalStorageHistory(JSON.stringify(nextState));
     interimHistorySubject$.next([]);
   }, []);
 

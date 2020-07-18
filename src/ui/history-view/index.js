@@ -1,26 +1,28 @@
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useHistoryApi } from '../../controllers';
 import './styled.css';
 
 const SingleCalculationHistory = ({drillDown, total}) => (
-  <li>
+  <li data-testid="history-item">
     <p className="light-grey-font">{drillDown} = </p>
     <p>{total}</p>
   </li>
 )
 
 export const HistoryView = () =>  {
+  const streamSubscriptionRef = useRef();
   const [ history, setHistory ] = useState([]);
   const [{ subject$ }] = useHistoryApi();
 
   useEffect(() => {
-    subject$.subscribe(e => {
-      setHistory(e);
-    })
+    streamSubscriptionRef.current = subject$.subscribe(setHistory);
+    return () => {
+      streamSubscriptionRef.current.unsubscribe();
+    }
   }, [subject$]);
 
   return (
-    <div className="histories">
+    <div className="histories" data-testid="histories">
       <ul className="history--tabs">
         <li>History</li>
         <li className="light-grey-font">Memory</li>

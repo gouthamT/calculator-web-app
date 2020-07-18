@@ -1,7 +1,7 @@
 import React from 'react';
-import { CalculatorView } from './ui';
 import { useStore } from './controllers';
 import { ErrorBoundary } from './common/ui';
+import { ResultView, ButtonList, HistoryView } from './ui';
 import './App.css';
 
 const App = () =>  {
@@ -10,7 +10,11 @@ const App = () =>  {
   return (
     <ErrorBoundary>
       <div className="app">
-        <CalculatorView value={displayValue} />
+        <div className="calculator">
+          <ResultView value={displayValue} />
+          <ButtonList />
+        </div>
+        <HistoryView />
       </div>
     </ErrorBoundary>
   );

@@ -2,9 +2,10 @@
  - This calculator app was built using React and Rxjs.
  - All buttons & keyboard events are connected to an observable which performs state updates.
  - used BehaviorSubject's to listen history and notify changes to the subscribed components.
+ - used local storage to store history of last 2 days user actions.
  - used plain css and media queries for Rwd.
 
-### [Demo here](https://gouthamt.github.io/calculator-web-app/)
+### [Live Demo here](https://gouthamt.github.io/calculator-web-app/)
 
 ### `yarn start`
 
@@ -26,6 +27,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+#### `ToDo`
+- Add unit test's to increase test coverage.
+- fix bug's with computations and histories.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 

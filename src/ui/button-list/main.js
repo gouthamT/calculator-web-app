@@ -15,5 +15,5 @@ export const Button = ({ btnConfig }) => {
 
   styles.push(className);
 
-   return <button className={styles.join(" ")} data-operator-key={buttonKey}>{label}</button>;
+   return <button className={styles.join(" ")} data-operator-key={buttonKey} data-testid={`btn-${buttonKey}`}>{label}</button>;
 };
